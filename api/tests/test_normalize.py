@@ -3,7 +3,7 @@ from app.utils.reduction import reduce_number
 
 
 def test_normalize_text_removes_accents_spaces_and_symbols():
-    assert normalize_text("Nitai Embrás") == "NITAIEMBRAS"
+    assert normalize_text("Nitai Garcia Fernandes") == "NITAIGARCIAFERNANDES"
 
 
 def test_normalize_text_ignores_non_letters():
